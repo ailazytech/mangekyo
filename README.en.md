@@ -35,7 +35,11 @@ Key rules: search before writing; tag every item as verified, from memory or inf
 
 ### Claude Code
 
-Put this folder at `~/.claude/skills/mangekyo` and start a new session.
+```bash
+git clone https://github.com/ailazytech/mangekyo.git ~/.claude/skills/mangekyo
+```
+
+Start a new session. Phrases like "萬花筒", "mangekyo", "is there a term for this" or "how do other fields solve it" trigger it.
 
 ### Other agents or models
 

@@ -33,7 +33,11 @@
 
 ### Claude Code
 
-把這個資料夾放到 `~/.claude/skills/mangekyo`，重開 session。
+```bash
+git clone https://github.com/ailazytech/mangekyo.git ~/.claude/skills/mangekyo
+```
+
+重開 session 後，說「萬花筒」「概念挖掘」「這種現象叫什麼」「別的領域怎麼解」都會觸發。
 
 ### 其他 agent 或模型
 
