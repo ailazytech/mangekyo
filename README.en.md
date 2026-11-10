@@ -1,8 +1,10 @@
-# concept-mining
+# mangekyo (Mangekyō)
 
 English ｜ [繁體中文](README.md)
 
 An agent skill that connects an everyday description to established professional knowledge. You have noticed something, hit a problem or want to achieve something, but you do not know what it is called in any field, so you cannot find the research and solutions that already exist. This skill finds the name, the literature and how other fields solved it, and keeps what was verified apart from what is merely similar.
+
+Named after the Mangekyō Sharingan from *Naruto*. The Sharingan sees through the structure of a technique, sees through illusions and copies other ninja's techniques, but cannot copy bloodline abilities; this skill restates a description as a mechanism, verifies its sources, borrows solutions from other fields and says which conditions differ so they cannot be copied as is. A kaleidoscope (mangekyō) carries the same idea: the same fragments form a different pattern with each turn, the way one thing has a different name in each field.
 
 It links sideways and does not decide for you. To turn a topic into a direction and a plan, use [ryoiki-tenkai (Domain Expansion)](https://github.com/ailazytech/ryoiki-tenkai); the output of this skill works as its background input.
 
@@ -24,7 +26,7 @@ Key rules: search before writing; tag every item as verified, from memory or inf
 
 | You say | The agent |
 |---|---|
-| A description + "概念挖掘", "is there a term for this" or "how do other fields solve it" | Runs the whole process (steps 0–4) and replies in the chat |
+| A description + "萬花筒", "mangekyo", "is there a term for this" or "how do other fields solve it" | Runs the whole process (steps 0–4) and replies in the chat |
 | "what is this called" / "quick" | Returns only the mechanism, candidate terms and keywords |
 | "give me the prompt" | Returns `prompt.md` so you can paste it into another model or agent |
 | "save it" | Runs the whole process and writes `docs/concept-<name>-<date>.md` |
@@ -33,7 +35,7 @@ Key rules: search before writing; tag every item as verified, from memory or inf
 
 ### Claude Code
 
-Put this folder at `~/.claude/skills/concept-mining` and start a new session.
+Put this folder at `~/.claude/skills/mangekyo` and start a new session.
 
 ### Other agents or models
 
